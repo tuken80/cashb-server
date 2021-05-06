@@ -1,6 +1,4 @@
 .idea/
-.vscode/
+dist/
+logs/
 node_modules/
-build/
-tmp/
-temp/

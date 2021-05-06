@@ -88,8 +88,8 @@ class Server {
             format: winston.format.json(),
             defaultMeta: { service: 'user-service' },
             transports: [
-                new winston.transports.File({ filename: 'error.log', level: 'error' }),
-                new winston.transports.File({ filename: 'combined.log' }),
+                new winston.transports.File({ filename: `${__dirname}/../logs/error.log`, level: 'error' }),
+                new winston.transports.File({ filename: `${__dirname}/../logs/combined.log` }),
             ],
         });
 
