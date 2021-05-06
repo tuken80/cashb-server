@@ -2,7 +2,7 @@
   "type": "mysql",
   "host": "localhost",
   "port": 3306,
-  "username": "rd",
+  "username": "romisch",
   "password": "Chofiisjo80@MAC",
   "database": "cash",
   "synchronize": true,
